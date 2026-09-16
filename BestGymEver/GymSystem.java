@@ -1,4 +1,4 @@
-/*package övningsuppgift2;
+package BestGymEver;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -9,10 +9,8 @@ import java.util.Scanner;
 public class GymSystem {
 
     public static void main(String[] args) {
-        String filePath = "customers.txt";
-
-        List<Member> members = övningsuppgift2.MemberReader.readMembersFromFile(filePath); // anta att du har denna metod
-
+        String filePath = "BestGymEver/customers.txt";
+        List<Member> members = MemberReader.readMembersFromFile(filePath);
         Scanner input = new Scanner(System.in);
         System.out.print("Ange namn eller personnummer: ");
         String search = input.nextLine().trim();
@@ -53,5 +51,4 @@ public class GymSystem {
     }
 }
 
-*/
 
